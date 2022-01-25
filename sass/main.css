@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&family=Iceland&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://i.imgur.com/qdmgYYA.jpg") center/cover no-repeat;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  position: relative;
+  width: 27em;
+  height: 18em;
+  padding: 2em;
+  font-family: "Courier Prime", mono;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(0.5em);
+          backdrop-filter: blur(0.5em);
+  border: 1px solid;
+  border-color: #fff8 transparent transparent #fff8;
+  border-radius: 1em;
+  box-shadow: 1em 1em 0.5em #0008;
+}
+.card__logo {
+  position: absolute;
+  right: 2em;
+  bottom: 1em;
+  width: 4em;
+  height: 4em;
+}
+.card__chip {
+  width: 4.2em;
+  height: 3.6em;
+  border-radius: 0.6em;
+}
+.card__bank {
+  margin: 0 0 0.75em;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.card__validthrutext {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 0.5em;
+  font-weight: 400;
+}
+.card__validthru {
+  margin: 0;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+.card__person {
+  position: absolute;
+  bottom: 0.8em;
+  left: calc(2em / 1.6);
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  font-weight: 400;
+}
+.card__numbers {
+  padding: 0;
+  margin: 1em 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Iceland", cursive;
+}
+.card__number {
+  font-size: 2.25em;
+  letter-spacing: 1px;
+  transform: scaley(1.2);
+}
+.card__images {
+  display: flex;
+  align-items: center;
+}
+.card__wireless {
+  width: 3em;
+  height: 3em;
+  margin-left: 1em;
+}/*# sourceMappingURL=main.css.map */
